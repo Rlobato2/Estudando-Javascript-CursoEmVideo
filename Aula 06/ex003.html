@@ -21,9 +21,13 @@
     <p>já me livre da maldição</p>
 
     <script>
-        window.alert("minha primeira mensagem")// janela de alerta
-        window.confirm("Esta gostando do JavaScript?")//janela com o botao ok e cancelar
-        window.prompt('qual e o seu nome?')//vai perguntar o nome
+       var n1 = Number(window.prompt('digite um número'))// valor string, precisa utilizar o Number para converter para número
+       var n2 = Number(window.prompt('digite outro número'))// valor string, precisa utilizar o Number para converter para número
+       var s = n1 + n2
+       alert( `A soma de ${n1} mais ${n2} é igual a ${s}` ) // concatenação
+       // number + number para adiçao
+       // string + string para concatenação
+       
     </script>
 </body>
 </html>

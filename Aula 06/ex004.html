@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial; 
+        }
+    </style>
+</head>
+<body>
+    
+
+    <script>
+        var nome = prompt('Qual é o seu nome?')
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras <br/>`) // o tributo nome.length conta o numero de caracteres da string, <br/> quebra o testo para a prox linha  
+        document.write(`seu nome em maiusculo é ${nome.toUpperCase()}<br/>`) // nome.toUpperCase() trasforma tudo em maiusculo
+        document.write(`seu nome em minusculo é ${nome.toLowerCase()}<br/>`) // nome.toLowerCase() tudo para minusculo
+
+    </script>
+</body>
+</html>
